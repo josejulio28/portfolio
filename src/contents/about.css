@@ -1,0 +1,19 @@
+.main-about {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100vh;    
+    background-image: ;
+}
+
+.description {
+    margin-block: auto;
+    padding: 60px;
+    text-align: justify;
+    width: 340px;
+}
+
+.img-about{
+    border-radius: 50%;
+
+}

@@ -1,0 +1,13 @@
+.div-main {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #276678;
+    height: 5vh;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+}
+
+.link { padding: 7px;
+    color: #d3e0ea;
+}
