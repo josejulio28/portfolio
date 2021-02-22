@@ -4,7 +4,7 @@ import Navbar from "./contents/navbar"
 import Footer from './contents/Footer';
 import About from "./contents/about";
 import Portfolio from "./contents/portfolio";
-
+import Techskills from "./contents/techskills";
 // class App extends Component {
 //   render() {
 //     return (
@@ -21,6 +21,7 @@ function App() {
       <Navbar />
       <About />
       <Portfolio />
+      <Techskills />
       <Footer />
     </div>
   )
