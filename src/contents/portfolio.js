@@ -3,8 +3,8 @@ import "./portfolio.css"
 function portfolio() {
     return (
         <div className="div-portfolio">
-            <div className="card-portfolio">
-                <h2>Survivors</h2>
+            <div className="card-portfolio" >
+                <h2 href="https://www.womensurvivors.net">Survivors</h2>
                 <p></p>
             </div>
             <div className="card-portfolio">
