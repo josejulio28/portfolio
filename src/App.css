@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Nunito', sans-serif;
   height: 100%;
 }
 
@@ -24,4 +24,4 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
