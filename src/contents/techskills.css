@@ -1,0 +1,36 @@
+h3 {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+    padding-right: 1.5rem;
+    padding-bottom: .5rem;
+    padding-left: 1.5rem;
+    background-color: salmon;
+    border-radius: 50rem;
+}
+
+.techskills {
+  display: flex;
+  justify-content: space-around;
+}
+
+a:link {
+  text-decoration: none;
+  color: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: none;
+}
+
+a:hover {
+  text-decoration: none;
+  animation-delay: 2s;
+
+}
+
+a:active {
+  text-decoration: none;
+}
