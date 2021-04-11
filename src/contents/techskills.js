@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col'
 
 function techskills() {
     return (
-        <div class="container">
+        <Container>
         <h2>Technicall Skills </h2>
         <Row col-12 col-sm-6 col-md-3 techskills>
             <h3>React</h3>
@@ -21,8 +21,7 @@ function techskills() {
             <h3>SQL</h3>
             <h3>Bootstrap</h3>
           </Row>
-
-        </div>
+          <Container>
     )
 }
 

@@ -21,7 +21,10 @@
     width: 200px;
 
 }
+<<<<<<< HEAD
 
 @media (max-width: 544px) {
   .img-about {width: 150px;} /*1rem = 16px*/
 }
+=======
+>>>>>>> c9201ac95ae407da67b9970bbeeb1cceb14184c4

@@ -1,3 +1,4 @@
+
 h3 {
     display: inline-block;
     margin-right: 1rem;
@@ -35,6 +36,7 @@ a:active {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
   h3 {font-size:1rem;} /*1rem = 16px*/
@@ -53,4 +55,12 @@ a:active {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   h3 {font-size:3rem;} /*1rem = 16px*/
+=======
+.p {
+  border-width: 1px;
+  border-radius: 25px;
+  padding: 3px;
+  background-color: azure;
+
+>>>>>>> c9201ac95ae407da67b9970bbeeb1cceb14184c4
 }
