@@ -4,7 +4,7 @@
     height: 100%;
     background-image: ;
     vertical-align: middle;
-    padding-top: 160px;
+    padding-top: 100px;
 }
 
 .description {
@@ -21,3 +21,8 @@
     width: 200px;
 
 }
+
+@media (max-width: 544px) {
+  .img-about {width: 150px;} /*1rem = 16px*/
+}
+

@@ -5,20 +5,13 @@ import Footer from './contents/Footer';
 import About from "./contents/about";
 import Portfolio from "./contents/portfolio";
 import Techskills from "./contents/techskills";
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//         <Navbar />
-//       </div>
-//     )
-//   }
-// }
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// don't forget to put the navbar
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <About />
       <Portfolio />
       <Techskills />
