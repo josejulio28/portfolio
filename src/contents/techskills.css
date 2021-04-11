@@ -1,3 +1,4 @@
+
 h3 {
     display: inline-block;
     margin-right: 1rem;
@@ -53,4 +54,11 @@ a:active {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   h3 {font-size:3rem;} /*1rem = 16px*/
+  
+.p {
+  border-width: 1px;
+  border-radius: 25px;
+  padding: 3px;
+  background-color: azure;
+
 }
