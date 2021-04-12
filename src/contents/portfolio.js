@@ -9,7 +9,8 @@ import Col from 'react-bootstrap/Col'
 
 function portfolio() {
     return (
-        <div className="row">
+        <Container>
+        <Row>
           <div className="col-12 col-sm-6 col-md-3 card-portfolio" >
             <h2><a href="https://www.womensurvivors.net/" target="_blank">Survivors</a></h2>
                 <img className="img-portfolio" src={survivors} alt="image_survivors"/>
@@ -22,7 +23,8 @@ function portfolio() {
             <div className="col-12 col-sm-6 col-md-3 card-portfolio ">
                 <h2> <a href="https">Mr Cocktail</a></h2>
                 <p></p></div>
-        </div>
+        </Row>
+        </Container>
     )
 }
 
