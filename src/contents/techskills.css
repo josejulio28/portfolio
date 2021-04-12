@@ -14,6 +14,7 @@ h3 {
 .techskills {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
 }
 
 a:link {
@@ -36,13 +37,9 @@ a:active {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 9b03d01ae31c3bcd45fc14f5a3f5eebc0260a6a2
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
-  h3 {font-size:1rem;} /*1rem = 16px*/
+  h3 {font-size:0.5rem;} /*1rem = 16px*/
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -52,25 +49,12 @@ a:active {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  h3 {font-size:2.5rem;} /*1rem = 16px*/
+  h3 {font-size:1.5rem;} /*1rem = 16px*/
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  h3 {font-size:3rem;} /*1rem = 16px*/
-<<<<<<< HEAD
-=======
-=======
-  
->>>>>>> 9b03d01ae31c3bcd45fc14f5a3f5eebc0260a6a2
-.p {
-  border-width: 1px;
-  border-radius: 25px;
-  padding: 3px;
-  background-color: azure;
 
-<<<<<<< HEAD
->>>>>>> c9201ac95ae407da67b9970bbeeb1cceb14184c4
-=======
->>>>>>> 9b03d01ae31c3bcd45fc14f5a3f5eebc0260a6a2
+  h3 {font-size:1.5rem;} /*1rem = 16px*/
 }
+
