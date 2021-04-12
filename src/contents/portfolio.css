@@ -33,12 +33,13 @@ a:active {
 }
 
 .img-portfolio {
+    box-shadow: 5px 10px;
     width: 70%;
     height: 50%;
     border-radius: 5px;
 }
 
-.container {
-    align-items: center;
-    justify-content: center;
+.Container {
+  box-shadow: 5px 10px;
 }
+
