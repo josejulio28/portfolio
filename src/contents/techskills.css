@@ -18,7 +18,10 @@ h3 {
 .techskills {
   display: flex;
   justify-content: space-around;
+<<<<<<< HEAD
   margin-top: 30px;
+=======
+>>>>>>> 31482299c54baef155f943237f74ec77e41a1c0c
   box-shadow: 20px;
 }
 
@@ -59,9 +62,14 @@ a:active {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+<<<<<<< HEAD
 
 
   h3 {font-size:1.5rem;} /*1rem = 16px*/
 }
 
 
+=======
+  h3 {font-size:1.5rem;} /*1rem9= 16px*/
+}
+>>>>>>> 31482299c54baef155f943237f74ec77e41a1c0c

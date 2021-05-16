@@ -7,7 +7,10 @@ import Col from 'react-bootstrap/Col'
 
 function about() {
     return (
+<<<<<<< HEAD
 
+=======
+>>>>>>> 31482299c54baef155f943237f74ec77e41a1c0c
       <Container>
       <Row>
         <div className="main-about">
