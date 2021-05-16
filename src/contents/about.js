@@ -7,16 +7,19 @@ import Col from 'react-bootstrap/Col'
 
 function about() {
     return (
-        <Container>
-          <Row>
-            <col>
-              <img className="img-about" src={Image} />
-            </col>
-          </Row>
+
+      <Container>
+      <Row>
+        <div className="main-about">
+            <div>
+                <img className="img-about" src={Image} alt="My Image" />
+            </div>
             <div className="description">
                 <h2> About me</h2>
                 <p>My name is Júlio and I am 29 years old. I was born in a lovely country called Portugal.  Recently, I finished a bootcamp in Web Develepoment. My I would like to focus more on Front-end. </p>
             </div>
+        </div>
+        </Row>
         </Container>
     )
 }
