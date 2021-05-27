@@ -21,15 +21,10 @@ function portfolio() {
                 <img className="img-portfolio" src={pets} alt="image_of_pet"/>
                 <p></p></div>
             <div className="col-12 col-sm-6 col-md-3 card-portfolio ">
-<<<<<<< HEAD
-                <h2> <a href="https">Mr Cocktail</a></h2>
-                <p></p></div>
-        </Row>
-=======
+
               <h2> <a href="https">Mr Cocktail</a></h2>
               <p></p></div>
           </Row>
->>>>>>> 31482299c54baef155f943237f74ec77e41a1c0c
         </Container>
     )
 }
