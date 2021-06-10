@@ -21,6 +21,7 @@ function portfolio() {
                 <img className="img-portfolio" src={pets} alt="image_of_pet"/>
                 <p></p></div>
             <div className="col-12 col-sm-6 col-md-3 card-portfolio ">
+
               <h2> <a href="https">Mr Cocktail</a></h2>
               <p></p></div>
           </Row>
