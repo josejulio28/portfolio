@@ -8,13 +8,12 @@ import Col from 'react-bootstrap/Col'
 function techskills() {
     return (
         <Container>
-<<<<<<< HEAD
         <h2>Technicall Skills </h2>
         <Row col-12 col-sm-6 col-md-3 techskills>
-=======
+
         <h2>Technical Skills </h2>
           <Row col-12 col-sm-6 col-md-3 >
->>>>>>> d029194d17ad3a54318d58e4a379628a2780aad3
+
             <h3>React</h3>
             <h3>JavaScript</h3>
             <h3>CSS</h3>
@@ -26,12 +25,9 @@ function techskills() {
             <h3>SQL</h3>
             <h3>Bootstrap</h3>
           </Row>
-<<<<<<< HEAD
-          <Container>
-=======
+          </Row>
         </Container>
->>>>>>> d029194d17ad3a54318d58e4a379628a2780aad3
-    )
+      )
 }
 
 export default techskills
