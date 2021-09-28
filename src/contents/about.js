@@ -17,6 +17,8 @@ function about() {
                 <h2> About me</h2>
                 <p>My name is Júlio and I am 29 years old. I was born in a lovely country called Portugal.  Recently, I finished a bootcamp in Web Develepoment. My I would like to focus more on Front-end. </p>
             </div>
+        </div>
+        </Row>
         </Container>
     )
 }
