@@ -1,45 +1,57 @@
 .div-portfolio {
-    justify-content: space-evenly;
-    display: flex;
-    padding: 3px;
-    background-color: #000000;
-    width: 100%;
-    height: 50vh;
+  justify-content: space-evenly;
+  display: flex;
+  padding: 3px;
+  background-color: #000000;
+  width: 100%;
+  height: 50vh;
 }
 
-.card-portfolio{
-    justify-content:space-evenly;
-    width: 100%;
-    height: 100%;
-
-
+.card-portfolio {
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  transition: top ease 0.4s;
 }
 
-a:link {
+.card-portfolio:hover {
+  top: -10px;
+}
+.card-portfolio h2 a {
+  color: black;
+}
+
+h2 a:link {
+  text-decoration: none;
+  color: black;
+}
+
+h2 a:visited {
   text-decoration: none;
 }
 
-a:visited {
-  text-decoration: none;
+h2 a:hover {
+  color: grey;
 }
 
-a:hover {
+h2 a:active {
   text-decoration: none;
-
-}
-
-a:active {
-  text-decoration: none;
+  color: black;
 }
 
 .img-portfolio {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-    width: 70%;
-    height: 50%;
-    border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  width: 70%;
+  height: 50%;
+  border-radius: 5px;
 }
 
 .Container {
   box-shadow: 5px 10px;
 }
 
+h2 {
+  color: #000000;
+}

@@ -1,13 +1,29 @@
 .div-main {
-    display: flex;
-    justify-content: flex-end;
-    background-color: ;
-    height: 5vh;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: ;
+  height: 10vh;
+  /* position: fixed; Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
 }
 
-.link { padding: 7px;
-    color: #d3e0ea;
+.link {
+  padding: 7px;
+  color: black;
+  padding-right: 45px;
+}
+
+.link:hover {
+  color: grey;
+}
+.Navbar_container {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+}
+.Navbar_container h1 {
+  font-stretch: extra-expanded;
+  white-space: nowrap;
 }
