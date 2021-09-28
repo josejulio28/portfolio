@@ -9,9 +9,9 @@ function about() {
     return (
         <Container>
           <Row>
-            <col>
+            <Col>
               <img className="img-about" src={Image} />
-            </col>
+            </Col>
           </Row>
             <div className="description">
                 <h2> About me</h2>
