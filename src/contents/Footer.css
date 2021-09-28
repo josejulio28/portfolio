@@ -1,15 +1,15 @@
-.Footer{
-    display: flex;
-    padding: 0px 0px;
-    text-align: center;
-    height: 5vh;
-    width: 100%;
-    justify-content: space-evenly;
-    color: #ffdd87;
-    background-color:#ffdd87;
-    position: fixed; /* Set the navbar to fixed position */
-    bottom: 0; /* Position the navbar at the top of the page */
-    width: 100%;
+.Footer {
+  display: flex;
+  padding: 0px 0px;
+  text-align: center;
+  height: 5vh;
+  width: 100%;
+  justify-content: space-evenly;
+  color: #ffdd87;
+  background-color: #ffdd87;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the top of the page */
+  width: 100%;
 }
 
 a {
@@ -26,7 +26,6 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-
 }
 
 a:active {

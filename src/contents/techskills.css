@@ -4,15 +4,15 @@ h2 {
 }
 
 h3 {
-    display: inline-block;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    padding-top: .5rem;
-    padding-right: 1.5rem;
-    padding-bottom: .5rem;
-    padding-left: 1.5rem;
-    background-color: #ffcb4a;
-    border-radius: 50rem;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  background-color: #ffcb4a;
+  border-radius: 50rem;
 }
 
 .techskills {
@@ -37,7 +37,6 @@ a:visited {
 a:hover {
   text-decoration: none;
   animation-delay: 2s;
-
 }
 
 a:active {
@@ -46,24 +45,28 @@ a:active {
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
-  h3 {font-size:0.5rem;} /*1rem = 16px*/
+  h3 {
+    font-size: 0.5rem;
+  } /*1rem = 16px*/
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
-  h3 {font-size:1.5rem;} /*1rem = 16px*/
+  h3 {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  h3 {font-size:1.5rem;} /*1rem = 16px*/
+  h3 {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
-
-  h3 {font-size:1.5rem;} /*1rem = 16px*/
+  h3 {
+    font-size: 1.5rem;
+  } /*1rem = 16px*/
 }
-
-
