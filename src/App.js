@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 // don't forget to put the navbar
-
+ 
 function App() {
   return (
     <Router>

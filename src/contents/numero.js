@@ -5,5 +5,5 @@ class claro extends Component {
         return <h1>Hello</h1>
     }
 }
-
+ 
 export default claro;
