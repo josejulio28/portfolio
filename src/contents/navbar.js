@@ -3,6 +3,7 @@ import React, { Component } from "react"
 import { Link, Route, withRouter } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import "./navbar.css"
+import { AiOutlineGithub } from 'react-icons/fa';
  
 class navbar extends Component {
     render() {
@@ -13,10 +14,12 @@ class navbar extends Component {
                 </div>
                 <div className="div-main">
                     <Link to="/"  className="link">Home</Link>
-                    <Link to="/about"  className="link">About me</Link>
-                    <a href="https://www.linkedin.com/in/jose-julio-ferreira/" className="link">LinkedIN</a>
-                    <a href="https://github.com/josejulio28" className="link">GitHub</a>
-                    <a href="zejulio3@hotmail.com" className="link">Email</a>
+                    <Link to="/projects"  className="link">
+                    Projects
+                    </Link>
+                    <Link to="/tech"  className="link"> Skills</Link>
+                    <Link to="/contact"  className="link"> Contact</Link>
+                    <Link to="/julioferreira.pdf" target="_blank" className="link" >Curriculum</Link>
                 </div>    
             </div>
             

@@ -8,8 +8,11 @@
   color: #ffdd87;
   background-color: #ffdd87;
   position: fixed; /* Set the navbar to fixed position */
-  bottom: 0; /* Position the navbar at the top of the page */
+  bottom: 0px; /* Position the footer at the bottom of the page */
   width: 100%;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 
 a {
