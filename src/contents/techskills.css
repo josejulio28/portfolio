@@ -1,3 +1,13 @@
+.container {
+  height: 100vh;
+  /* display: flex; */
+  position: fixed;
+}
+
+.skills {
+  /* display: flex; */
+}
+
 h2 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -41,6 +51,16 @@ a:hover {
 
 a:active {
   text-decoration: none;
+}
+
+.card-skills {
+  border-color: black;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  transition: top ease 0.4s;
 }
 
 /* Small devices (landscape phones, 544px and up) */

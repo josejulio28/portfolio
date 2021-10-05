@@ -1,7 +1,8 @@
 import './App.css';
 import React, { Component } from "react"
 import Navbar from "./contents/navbar"
-import Footer from './contents/Footer';
+import Contact from "./contents/contact"
+import Footer from "./contents/Footer";
 import About from "./contents/about";
 import Portfolio from "./contents/portfolio";
 import Techskills from "./contents/techskills";
@@ -19,14 +20,17 @@ function App() {
         <Route exact path="/"> {/* Não te esqueças de usar o EXACT para conseguires fazer o link entre as outras paginas */}
           <About />
         </Route>
-        <Route path="/about">
+        <Route path="/projects">
           <Portfolio />
         </Route>
-        
-        <Techskills />
-        <Footer />
+        <Route path="/tech">
+          <Techskills />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
       </Switch>
-      
+      <Footer />
     </div>
     </Router>
     
