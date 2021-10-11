@@ -1,28 +1,48 @@
 import React from "react"
-import "./portfolio.css"
+import "../styles/portfolio.css"
 import pets from "./pets_img.png"
 import survivors from "./survivors_img.png"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { FaChrome} from 'react-icons/fa';
+import {AiOutlineGithub} from 'react-icons/ai';
+
 
 function portfolio() {
     return (
         <div class="container">
           <Row>
             <div className="col-12 col-sm-6 col-md-4 card-portfolio" >
-              <h2><a href="https://www.womensurvivors.net/" target="_blank">Survivors</a></h2>
+              <h2>Survivors</h2>
+
                 <img className="img-portfolio" src={survivors} alt="image_survivors"/>
+                <a href="https://www.womensurvivors.net/" target="_blank">
+                  <FaChrome size = '30px' color="black" />
+                </a>
+                <a href="https://github.com/josejulio28">
+            <AiOutlineGithub size = '30px'color="black"/></a>
                 <p></p>
             </div>
             <div className="col-12 col-sm-6 col-md-4 card-portfolio">
-                <h2><a href="https://book-a-pet.herokuapp.com/" target="_blank">Pets</a></h2>
+                <h2>
+                Pets
+                </h2>
                 <img className="img-portfolio" src={pets} alt="image_of_pet"/>
-                <p></p></div>
+                <a href="https://book-a-pet.herokuapp.com/" target="_blank">
+                  <FaChrome size = '30px' color="black" /> 
+                  </a>
+                  <a href="https://github.com/josejulio28">
+                <AiOutlineGithub size = '30px'color="black"/></a>
+                
+                
+                <p></p>
+            </div>
             <div className="col-12 col-sm-6 col-md-4 card-portfolio ">
 
               <h2> <a href="https">Mr Cocktail</a></h2>
+              <FaChrome size = '30px' color="black" />
               <p></p></div>
           </Row>
         </div>

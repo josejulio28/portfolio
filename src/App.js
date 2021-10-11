@@ -2,7 +2,7 @@ import './App.css';
 import React, { Component } from "react"
 import Navbar from "./contents/navbar"
 import Contact from "./contents/contact"
-import Footer from "./contents/Footer";
+import Footer from "./contents/footer";
 import About from "./contents/about";
 import Portfolio from "./contents/portfolio";
 import Techskills from "./contents/techskills";
@@ -13,25 +13,26 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
  
 function App() {
   return (
-    <Router>
+      <Router>
       <div className="App">
-      <Navbar />
+      <Navbar /> 
       <Switch>
-        <Route exact path="/"> {/* Não te esqueças de usar o EXACT para conseguires fazer o link entre as outras paginas */}
+        <Route exact path="/"> {/* Não te esqueças de usar o EXACT 
+         para conseguires fazer o link entre as outras paginas */}
           <About />
         </Route>
-        <Route path="/projects">
+        <Route path="/projects"> 
           <Portfolio />
         </Route>
         <Route path="/tech">
           <Techskills />
         </Route>
-        <Route path="/contact">
+        <Route path="/contact"> 
           <Contact />
         </Route>
       </Switch>
       <Footer />
-    </div>
+      </div>
     </Router>
     
   )
