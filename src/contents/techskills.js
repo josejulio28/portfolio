@@ -1,39 +1,44 @@
 import React from "react"
 import "../styles/techskills.css"
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { fa-database } from 'react-icons/fas';
 
 function techskills() {
     return (
         <div class="container">
         <h2>Technicall Skills </h2>
         <div className="skills">
-        <div>
+        <div  className="card-skills" col-12 col-sm-6 col-md-3 techskills>
         <h2>Frontend</h2>
+          <div>
+            <ul>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Figma</li>
+            <li>SQL</li>
+            <li>Bootstrap</li>
+            </ul>
+
+          </div>
+        </div>
         <div className="card-skills" col-12 col-sm-6 col-md-3 techskills>
-            <h3>React</h3>
-            <h3>JavaScript</h3>
-            <h3>CSS</h3>
-            <h3>HTML</h3>
-            <h3>Figma</h3>
-            <h3>SQL</h3>
-            <h3>Bootstrap</h3>
-          </div>
-        </div>
-        <div>
           <h2>Backend</h2>
-          <div className="col-12 col-sm-6 col-md-4 card-skills">
-            <h3>Ruby</h3>
-            <h3>Ruby on Rails</h3>
-            <h3>SQL</h3>
+          <div >
+            <ul>
+            <li>Ruby</li>
+            <li>Ruby on Rails</li>
+            <li>SQL</li>
+            </ul>
           </div>
         </div>
-        <div>
-                    <h2>Others</h2>
-        <div className="card-skills">            
-            <h3>Git</h3>
+        <div  className="card-skills" col-12 col-sm-6 col-md-3 techskills>
+          <h2>Others</h2>
+        <div>            
+          <ul>
+            <li>Git</li>
+          </ul>
         </div>
         </div>
 

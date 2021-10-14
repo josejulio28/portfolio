@@ -1,11 +1,13 @@
 .container {
-  height: 100vh;
   /* display: flex; */
-  position: fixed;
+  /* position: fixed; */
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .skills {
-  /* display: flex; */
+  display: flex;
 }
 
 h2 {
@@ -55,11 +57,15 @@ a:active {
 
 .card-skills {
   border-color: black;
+  margin: 10px;
   justify-content: space-evenly;
   width: 100%;
   height: 100%;
   position: relative;
   top: 0;
+  transition: top ease 0.4s;
+  border-radius: 5px;
+  background-color: azure;
   transition: top ease 0.4s;
 }
 
@@ -89,4 +95,10 @@ a:active {
   h3 {
     font-size: 1.5rem;
   } /*1rem = 16px*/
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 20px;
 }
