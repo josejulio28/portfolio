@@ -22,11 +22,13 @@
   padding-left: 30px;
   padding-right: 40px;
   display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
 }
-.Navbar_container h1 {
+/* .Navbar_container h1 {
   font-stretch: extra-expanded;
-  /* white-space: nowrap; */
-}
+  /* white-space: nowrap; 
+} */
 
 @media screen and (min-width: 800px) {
   .container {
