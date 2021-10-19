@@ -1,9 +1,7 @@
 
 import React, { Component } from "react"
 import { Link, Route, withRouter } from "react-router-dom";
-import { Container } from "react-bootstrap";
 import "../styles/navbar.css"
-import { AiOutlineGithub } from 'react-icons/fa';
  
 class navbar extends Component {
     render() {

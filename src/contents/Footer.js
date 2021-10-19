@@ -1,11 +1,7 @@
-import React from "react"
+import React from 'react'
 import "../styles/footer.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import { AiOutlineGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
+
 function footer() {
     return (
         <div className="Footer">
