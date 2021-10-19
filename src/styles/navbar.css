@@ -3,7 +3,6 @@
   justify-content: flex-end;
   background-color: ;
   height: 10vh;
-  /* position: fixed; Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
 }

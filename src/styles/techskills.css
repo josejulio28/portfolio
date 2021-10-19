@@ -2,7 +2,7 @@
   /* display: flex; */
   /* position: fixed; */
   min-height: auto;
-  display: flex;
+  display: grid;
   flex-direction: column;
 }
 
