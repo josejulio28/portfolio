@@ -12,20 +12,11 @@ function portfolio() {
       <div className="card-portfolio">
         <h2>Survivors</h2>
         <div class="flip-card">
-          <div class="card-inner">
-            <div class="card-front">
-              <img
-                className="img-portfolio"
-                src={survivors}
-                alt="image_survivors"
-              />
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1>
-              <p>Architect & Engineer</p>
-              <p>We love that guy</p>
-            </div>
-          </div>
+          <img
+            className="img-portfolio"
+            src={survivors}
+            alt="image_survivors"
+          />
         </div>
         <div className="card-symbols">
           <a href="https://www.womensurvivors.net/" target="_blank">

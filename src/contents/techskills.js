@@ -8,7 +8,7 @@ function techskills() {
     <div class="container">
       <h2>Technicall Skills </h2>
       <div className="skills">
-        <div className="card-skills" col-12 col-sm-6 col-md-3 techskills>
+        <div className="card-skills" s>
           <h2>Frontend</h2>
           <div>
             <ul>
@@ -22,7 +22,7 @@ function techskills() {
             </ul>
           </div>
         </div>
-        <div className="card-skills" col-12 col-sm-6 col-md-3 techskills>
+        <div className="card-skills">
           <h2>Backend</h2>
           <div>
             <ul>
@@ -32,7 +32,7 @@ function techskills() {
             </ul>
           </div>
         </div>
-        <div className="card-skills" col-12 col-sm-6 col-md-3 techskills>
+        <div className="card-skills">
           <h2>Others</h2>
           <div>
             <ul>
