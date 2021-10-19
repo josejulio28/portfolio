@@ -1,5 +1,5 @@
 import React from "react"
-import "../styles/techskills.css"
+import "../styles/techskills.scss"
 
 function techskills() {
     return (

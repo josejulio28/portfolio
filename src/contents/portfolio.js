@@ -1,11 +1,9 @@
 import React from "react"
-import "../styles/portfolio.css"
+import "../styles/portfolio.scss"
 import pets from "./pets_img.png"
 import survivors from "./survivors_img.png"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import { FaChrome} from 'react-icons/fa';
 import {AiOutlineGithub} from 'react-icons/ai';
 

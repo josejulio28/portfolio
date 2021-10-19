@@ -1,7 +1,7 @@
 
 import React, { Component } from "react"
 import { Link, Route, withRouter } from "react-router-dom";
-import "../styles/navbar.css"
+import "../styles/navbar.scss"
  
 class navbar extends Component {
     render() {
