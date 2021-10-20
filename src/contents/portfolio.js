@@ -11,13 +11,7 @@ function portfolio() {
     <div class="container-portfolio">
       <div className="card-portfolio">
         <h2>Survivors</h2>
-        <div class="flip-card">
-          <img
-            className="img-portfolio"
-            src={survivors}
-            alt="image_survivors"
-          />
-        </div>
+        <img className="img-portfolio" src={survivors} alt="image_survivors" />
         <div className="card-symbols">
           <a href="https://www.womensurvivors.net/" target="_blank">
             <FaChrome size="30px" color="black" />

@@ -1,11 +1,10 @@
 import React from "react";
 import "../styles/about.css";
 import Image from "../images/Julio.jpg";
-import Container from "react-bootstrap/Container";
 
 function about() {
   return (
-    <Container>
+    <div className="container">
       <div>
         <h1>José Júlio Gonçalves Ferreira</h1>
       </div>
@@ -39,7 +38,7 @@ function about() {
           <p>Expressing myself clearly, </p>
         </div>
       </div>
-    </Container>
+    </div>
   );
 }
 
