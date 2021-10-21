@@ -26,7 +26,7 @@ function about() {
             <a href="https://github.com/josejulio28">
               <AiOutlineGithub size="30px" color="black" />
             </a>
-            <a href="zejulio3@hotmail.com">
+            <a href="mailto:zejulio3@hotmail.com">
               <AiOutlineMail size="30px" color="black" />
             </a>
           </div>

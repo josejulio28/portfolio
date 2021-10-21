@@ -40,20 +40,6 @@ function techskills() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card
-          style={{ width: "16rem" }}
-          className="m-4 shadow-sm p-3 mb-5 bg-white rounded"
-        >
-          <Card.Body>
-            <Card.Title>Others</Card.Title>
-            <Card.Text className="mb-2 text-muted">
-              <p>Git</p>
-              <p>Ruby</p>
-              <p>Ruby on Rails</p>
-              <p>SQL</p>
-            </Card.Text>
-          </Card.Body>
-        </Card>
       </Row>
     </div>
   );
