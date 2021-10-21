@@ -1,7 +1,6 @@
 .container-about {
   display: flex;
   flex-direction: column;
-  background-color: rgb(241, 244, 252);
   width: 100%;
   padding: 70px;
   justify-content: center;
@@ -27,6 +26,10 @@
   align-content: center;
   text-align: justify;
   width: 450px;
+}
+
+.description p {
+  width: 300px;
 }
 
 .img-about {

@@ -33,7 +33,10 @@ function about() {
         </div>
       </div>
       <Row>
-        <Card style={{ width: "18rem" }} className=" m-4">
+        <Card
+          style={{ width: "18rem" }}
+          className=" m-4 shadow p-3 mb-5 bg-white rounded"
+        >
           <Card.Body>
             <Card.Title>Quick Learner</Card.Title>
             <Card.Text>
@@ -42,15 +45,19 @@ function about() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }} className=" m-4">
-          <Card.Img variant="top" src="holder.js/100px180" />
+        <Card
+          style={{ width: "18rem" }}
+          className=" m-4 shadow p-3 mb-5 bg-white rounded"
+        >
           <Card.Body>
             <Card.Title>Communication</Card.Title>
             <Card.Text>Finding solutions and</Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }} className=" m-4">
-          <Card.Img variant="top" src="holder.js/100px180" />
+        <Card
+          style={{ width: "18rem" }}
+          className=" m-4 shadow p-3 mb-5 bg-white rounded"
+        >
           <Card.Body>
             <Card.Title>Communication</Card.Title>
             <Card.Text>Expressing myself clearly,</Card.Text>

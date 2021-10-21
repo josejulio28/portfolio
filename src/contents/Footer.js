@@ -11,6 +11,9 @@ function footer() {
   return (
     <div className="Footer">
       <div>
+        <p>Copyright © 2021. Built by Julio using React</p>
+      </div>
+      <div>
         <a href="https://www.linkedin.com/in/jose-julio-ferreira/">
           <AiFillLinkedin size="30px" color="black" />
         </a>
@@ -20,9 +23,6 @@ function footer() {
         <a href="zejulio3@hotmail.com">
           <AiOutlineMail size="30px" color="black" />
         </a>
-      </div>
-      <div>
-        <p>Copyright © 2021. Built by Julio using React</p>
       </div>
     </div>
   );

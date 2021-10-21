@@ -9,7 +9,10 @@ function techskills() {
     <div class="container">
       <h3>Technicall Skills </h3>
       <Row>
-        <Card style={{ width: "16rem" }} className=" m-4">
+        <Card
+          style={{ width: "16rem" }}
+          className=" m-4 shadow-sm p-3 mb-5 bg-white rounded"
+        >
           <Card.Body>
             <Card.Title>Frontend</Card.Title>
             <Card.Text className="mb-2 text-muted">
@@ -23,7 +26,10 @@ function techskills() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: "16rem" }} className="m-4">
+        <Card
+          style={{ width: "16rem" }}
+          className="m-4 shadow-sm p-3 mb-5 bg-white rounded"
+        >
           <Card.Body>
             <Card.Title>Backend</Card.Title>
             <Card.Text className="mb-2 text-muted">
@@ -34,7 +40,10 @@ function techskills() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: "16rem" }} className="m-4">
+        <Card
+          style={{ width: "16rem" }}
+          className="m-4 shadow-sm p-3 mb-5 bg-white rounded"
+        >
           <Card.Body>
             <Card.Title>Others</Card.Title>
             <Card.Text className="mb-2 text-muted">

@@ -12,24 +12,33 @@ function portfolio() {
     <div class="container-portfolio">
       <h3>Portfolio</h3>
       <Row>
-        <Card style={{ width: "22rem" }} className=" m-4">
+        <Card
+          style={{ width: "22rem" }}
+          className=" m-4 shadow p-3 mb-5 bg-white rounded"
+        >
           <Card.Img variant="top" src={survivors} href="" />
           <Card.Body>
-            <Card.Title>Survivors</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
+            <Button variant="secondary" href="https://www.womensurvivors.net/">
+              Survivors
+            </Button>
+            <Card.Subtitle className=" mt-3 text-muted">
               Ruby on Rails | JavaScript | Ruby
             </Card.Subtitle>
           </Card.Body>
         </Card>
-        <Card style={{ width: "22rem" }} className=" m-4">
-          <Card.Img
-            variant="top"
-            src={pets}
-            href="https://book-a-pet.herokuapp.com/"
-          />
+        <Card
+          style={{ width: "22rem" }}
+          className=" m-4 shadow p-3 mb-5 bg-white rounded"
+        >
+          <Card.Img variant="top" src={pets} />
           <Card.Body>
-            <Card.Title>Pets</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
+            <Button
+              variant="secondary"
+              href="https://book-a-pet.herokuapp.com//"
+            >
+              Pets
+            </Button>
+            <Card.Subtitle className="mt-3 text-muted">
               Ruby on Rails | JavaScript | Ruby
             </Card.Subtitle>
           </Card.Body>
