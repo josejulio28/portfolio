@@ -1,23 +1,15 @@
 .container {
-  /* display: flex; */
-  /* position: fixed; */
-  min-height: auto;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding: 70px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 
 .skills {
   display: flex;
-  /* flex-wrap: wrap; */
-}
-ul {
-  font-size: 0px;
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  margin: 5px;
 }
 
 h2 {
@@ -50,41 +42,4 @@ a:active {
   justify-content: space-evenly;
   width: 100px;
   height: 200px;
-}
-
-/* Small devices (landscape phones, 544px and up) */
-@media (max-width: 544px) {
-}
-
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (max-width: 768px) {
-  .container {
-    display: flex;
-  }
-  .skills {
-    flex-wrap: wrap;
-  }
-  ul {
-    font-size: 0px;
-  }
-  ul li {
-    font-size: 14px;
-  }
-  h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  h3 {
-    font-size: 1.5rem;
-  } /*1rem = 16px*/
-}
-
-ul {
-  list-style-type: none;
-  font-weight: bold;
-  font-size: 20px;
 }

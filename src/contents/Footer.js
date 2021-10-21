@@ -10,7 +10,7 @@ import { AiOutlineGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 function footer() {
   return (
     <div className="Footer">
-      <row>
+      <div>
         <a href="https://www.linkedin.com/in/jose-julio-ferreira/">
           <AiFillLinkedin size="30px" color="black" />
         </a>
@@ -20,7 +20,10 @@ function footer() {
         <a href="zejulio3@hotmail.com">
           <AiOutlineMail size="30px" color="black" />
         </a>
-      </row>
+      </div>
+      <div>
+        <p>Copyright © 2021. Built by Julio using React</p>
+      </div>
     </div>
   );
 }

@@ -7,20 +7,8 @@ class navbar extends Component {
   render() {
     return (
       <div className="Navbar_container">
-        <Link to="/" className="link">
-          Home
-        </Link>
-        <Link to="/projects" className="link">
-          Projects
-        </Link>
-        <Link to="/tech" className="link">
-          Skills
-        </Link>
         <Link to="/julioferreira.pdf" target="_blank" className="link">
           Curriculum
-        </Link>
-        <Link to="/contact" className="link">
-          Contact
         </Link>
       </div>
     );

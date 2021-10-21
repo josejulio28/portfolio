@@ -2,45 +2,50 @@ import React from "react";
 import "../styles/techskills.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { fa-database } from 'react-icons/fas';
+import { Card, Row, Col, Button } from "react-bootstrap";
 
 function techskills() {
   return (
     <div class="container">
-      <h2>Technicall Skills </h2>
-      <div className="skills">
-        <div className="card-skills">
-          <h2>Frontend</h2>
-          <div>
-            <ul>
-              <li>React</li>
-              <li>JavaScript</li>
-              <li>CSS</li>
-              <li>HTML</li>
-              <li>Figma</li>
-              <li>SQL</li>
-              <li>Bootstrap</li>
-            </ul>
-          </div>
-        </div>
-        <div className="card-skills">
-          <h2>Backend</h2>
-          <div>
-            <ul>
-              <li>Ruby</li>
-              <li>Ruby on Rails</li>
-              <li>SQL</li>
-            </ul>
-          </div>
-        </div>
-        <div className="card-skills">
-          <h2>Others</h2>
-          <div>
-            <ul>
-              <li>Git</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <h3>Technicall Skills </h3>
+      <Row>
+        <Card style={{ width: "16rem" }} className=" m-4">
+          <Card.Body>
+            <Card.Title>Frontend</Card.Title>
+            <Card.Text className="mb-2 text-muted">
+              <p>React</p>
+              <p>JavaScript</p>
+              <p>CSS</p>
+              <p>HTML</p>
+              <p>Figma</p>
+              <p>SQL</p>
+              <p>Bootstrap</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "16rem" }} className="m-4">
+          <Card.Body>
+            <Card.Title>Backend</Card.Title>
+            <Card.Text className="mb-2 text-muted">
+              <p>Node</p>
+              <p>Ruby</p>
+              <p>Ruby on Rails</p>
+              <p>SQL</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "16rem" }} className="m-4">
+          <Card.Body>
+            <Card.Title>Others</Card.Title>
+            <Card.Text className="mb-2 text-muted">
+              <p>Git</p>
+              <p>Ruby</p>
+              <p>Ruby on Rails</p>
+              <p>SQL</p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Row>
     </div>
   );
 }
