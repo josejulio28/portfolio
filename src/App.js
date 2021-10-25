@@ -1,7 +1,6 @@
 import "./App.css";
 import React, { Component } from "react";
 import Navbar from "./contents/navbar";
-import Contact from "./contents/contact";
 import Footer from "./contents/Footer";
 import About from "./contents/about";
 import Portfolio from "./contents/portfolio";
