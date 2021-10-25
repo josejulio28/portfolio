@@ -3,9 +3,7 @@ import "../styles/portfolio.css";
 import pets from "../images/pets_img.png";
 import survivors from "../images/survivors_img.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { FaChrome } from "react-icons/fa";
-import { AiOutlineGithub } from "react-icons/ai";
-import { Card, Row, Col, Button } from "react-bootstrap";
+import { Card, Row, Button } from "react-bootstrap";
 
 function portfolio() {
   return (

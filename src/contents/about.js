@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 import Image from "../images/Julio.jpg";
-import Container from "react-bootstrap/Container";
-import { Card, Row, Col, Button } from "react-bootstrap";
+import { Card, Row } from "react-bootstrap";
 import { AiOutlineGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 function about() {
   return (
