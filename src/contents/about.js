@@ -42,7 +42,7 @@ function about() {
             <Card.Text>
               Having the ability to learn rapidly, applying and processing the
               information provided. Searching for new challenges and eager to
-              learn more
+              learn more.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -54,7 +54,7 @@ function about() {
             <Card.Title>Communication</Card.Title>
             <Card.Text>
               Expressing myself clearly and receptive to new ideas. Always
-              looking for feedback and constructive critcism.
+              looking for feedback and constructive criticism.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -65,8 +65,8 @@ function about() {
           <Card.Body>
             <Card.Title>Team Player</Card.Title>
             <Card.Text>
-              Respecting other opions and commited to help others to find better
-              solutions.
+              Respecting other opinions and committed to help others to find
+              better solutions.
             </Card.Text>
           </Card.Body>
         </Card>
