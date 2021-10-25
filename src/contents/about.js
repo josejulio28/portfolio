@@ -52,8 +52,8 @@ function about() {
           <Card.Body>
             <Card.Title>Communication</Card.Title>
             <Card.Text>
-              Expressing myself clearly and receptive to new ideas. Always
-              looking for feedback and constructive criticism.
+              Expressing clearly and receptive to new ideas. Always looking for
+              feedback and constructive criticism.
             </Card.Text>
           </Card.Body>
         </Card>
