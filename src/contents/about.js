@@ -41,7 +41,8 @@ function about() {
             <Card.Title>Quick Learner</Card.Title>
             <Card.Text>
               Having the ability to learn rapidly, applying and processing the
-              information provided
+              information provided. Searching for new challenges and eager to
+              learn more
             </Card.Text>
           </Card.Body>
         </Card>
@@ -51,7 +52,10 @@ function about() {
         >
           <Card.Body>
             <Card.Title>Communication</Card.Title>
-            <Card.Text>Finding solutions and</Card.Text>
+            <Card.Text>
+              Expressing myself clearly and receptive to new ideas. Always
+              looking for feedback and constructive critcism.
+            </Card.Text>
           </Card.Body>
         </Card>
         <Card
@@ -59,8 +63,11 @@ function about() {
           className=" m-4 shadow p-3 mb-5 bg-white rounded"
         >
           <Card.Body>
-            <Card.Title>Communication</Card.Title>
-            <Card.Text>Expressing myself clearly,</Card.Text>
+            <Card.Title>Team Player</Card.Title>
+            <Card.Text>
+              Respecting other opions and commited to help others to find better
+              solutions.
+            </Card.Text>
           </Card.Body>
         </Card>
       </Row>
