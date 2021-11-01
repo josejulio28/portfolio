@@ -10,9 +10,9 @@ function about() {
         <div className="description">
           <h2> Júlio Ferreira</h2>
           <p>
-            Born in a lovely country called Portugal and moved to Poland and
+            Born in a lovely country called Portugal and lived in Poland and in
             Ireland. At the moment, Berlin is home. Recently, finished a
-            bootcamp in Web Develepoment and the main focus is now Front-end.
+            bootcamp as a Full Stack Web Developer.
           </p>
         </div>
         <div ClassName="card-photo">
