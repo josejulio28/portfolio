@@ -36,12 +36,6 @@ function portfolio() {
             >
               Pets
             </Button>
-            <Button
-              variant="secondary"
-              href="https://book-a-pet.herokuapp.com//"
-            >
-              GitHub
-            </Button>
             <Card.Subtitle className="mt-3 text-muted">
               Ruby on Rails | JavaScript | Ruby
             </Card.Subtitle>
