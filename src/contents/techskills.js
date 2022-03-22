@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/techskills.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { fa-database } from 'react-icons/fas';
 import { Card, Row, Col, Button } from "react-bootstrap";
 
@@ -18,8 +17,8 @@ function techskills() {
             <Card.Text className="mb-2 text-muted">
               <p>React</p>
               <p>JavaScript</p>
-              <p>CSS</p>
-              <p>HTML</p>
+              <p>CSS/ HTML</p>
+              <p>Redux</p>
               <p>Figma</p>
               <p>SQL</p>
               <p>Bootstrap</p>
