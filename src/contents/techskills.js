@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/techskills.css";
 // import { fa-database } from 'react-icons/fas';
-import { Card, Row, Col, Button } from "react-bootstrap";
+import { Card, Row } from "react-bootstrap";
 
 function techskills() {
   return (
