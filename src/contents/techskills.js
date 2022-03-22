@@ -17,7 +17,7 @@ function techskills() {
             <Card.Text className="mb-2 text-muted">
               <p>React</p>
               <p>JavaScript</p>
-              <p>CSS/ HTML</p>
+              <p>CSS/HTML</p>
               <p>Redux</p>
               <p>Figma</p>
               <p>SQL</p>
