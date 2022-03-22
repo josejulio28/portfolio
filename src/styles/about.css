@@ -20,6 +20,10 @@
   justify-content: center;
 }
 
+.Card.Title {
+  font-weight: 600;
+}
+
 .description {
   padding-top: 20px;
   padding-right: 15%;
