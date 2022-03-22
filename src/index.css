@@ -16,7 +16,7 @@ body {
   padding: 0;
   margin: 0;
   animation: gradient 15s ease infinite;
-  background: linear-gradient(-45deg, #f0b7a6, #fcf5f3, #f9ccbe, #f9ccbe);
+  background: linear-gradient(-45deg, #f0c9bd, #f5fafe, #f9ccbe, #f5fafe);
 }
 
 @keyframes gradient {
