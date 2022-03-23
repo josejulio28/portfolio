@@ -16,7 +16,7 @@ function portfolio() {
       <Row>
         <Card
           style={{ width: "22rem" }}
-          className=" m-4 shadow p-3 mb-5 bg-white rounded"
+          className=" m-4 shadow p-3 mb-5 bg-white "
         >
           <h5>Survivors</h5>
           <Card.Img
@@ -71,7 +71,7 @@ function portfolio() {
         </Card>
         <Card
           style={{ width: "22rem" }}
-          className=" m-4 shadow p-3 mb-5 bg-white rounded"
+          className=" m-4 shadow p-3 mb-5 bg-white "
         >
           <h5>Pets</h5>
           <Card.Img
@@ -121,7 +121,7 @@ function portfolio() {
         </Card>
         <Card
           style={{ width: "22rem" }}
-          className=" m-4 shadow p-3 mb-5 bg-white rounded"
+          className=" m-4 shadow p-3 mb-5 bg-white "
         >
           <h5>NY Times Searcher</h5>
           <Card.Img
