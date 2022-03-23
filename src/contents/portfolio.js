@@ -27,14 +27,17 @@ function portfolio() {
           />
           <Card.Body>
             <Button
-              variant="secondary"
               href="https://github.com/PatriciaZB/SURVIVORS"
-              style={{ marginRight: "30px" }}
+              style={{
+                marginRight: "30px",
+                backgroundColor: "#3c5870",
+                borderColor: "#3c5870",
+              }}
             >
               Live
             </Button>
             <Button
-              variant="secondary"
+              style={{ backgroundColor: "#3c5870", borderColor: "#3c5870" }}
               href="https://main.d2djgxcmmqqh1o.amplifyapp.com/"
             >
               GitHub
@@ -78,14 +81,17 @@ function portfolio() {
           />
           <Card.Body>
             <Button
-              variant="secondary"
               href="https://book-a-pet.herokuapp.com//"
-              style={{ marginRight: "30px" }}
+              style={{
+                marginRight: "30px",
+                backgroundColor: "#3c5870",
+                borderColor: "#3c5870",
+              }}
             >
               Live
             </Button>
             <Button
-              variant="secondary"
+              style={{ backgroundColor: "#3c5870", borderColor: "#3c5870" }}
               href="https://github.com/camimurg/book-a-pet"
             >
               GitHub
@@ -128,12 +134,16 @@ function portfolio() {
             <Button
               variant="secondary"
               href="https://main.d2djgxcmmqqh1o.amplifyapp.com/"
-              style={{ marginRight: "30px" }}
+              style={{
+                marginRight: "30px",
+                backgroundColor: "#3c5870",
+                borderColor: "#3c5870",
+              }}
             >
               Live
             </Button>
             <Button
-              variant="secondary"
+              style={{ backgroundColor: "#3c5870", borderColor: "#3c5870" }}
               href="https://main.d2djgxcmmqqh1o.amplifyapp.com/"
             >
               GitHub

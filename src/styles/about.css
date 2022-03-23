@@ -36,6 +36,10 @@
   width: 300px;
 }
 
+.h5 {
+  font-weight: 900;
+  text-decoration: underline;
+}
 .img-about {
   margin: auto;
   border-radius: 50%;
