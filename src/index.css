@@ -15,20 +15,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  animation: gradient 15s ease infinite;
-  background: linear-gradient(-45deg, #f0c9bd, #f5fafe, #f9ccbe, #f5fafe);
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  background: linear-gradient(to bottom, #7a8296c9, #c5e5ff);
 }
 
 code {
