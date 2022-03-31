@@ -1,41 +1,21 @@
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-auto-flow: row;
   width: 100%;
-  padding: 75px;
-  justify-content: center;
-  align-items: center;
   height: auto;
   margin: auto;
+  padding-top: 4em;
 }
 
 .skills {
-  display: flex;
+  /* display: flex;
+  justify-content: center; centers child */
 }
-
-h2 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-weight: 700;
-}
-
-a:link {
-  text-decoration: none;
-  color: none;
-}
-
-a:visited {
-  text-decoration: none;
-  color: none;
-}
-
-a:hover {
-  text-decoration: none;
-  animation-delay: 2s;
-}
-
-a:active {
-  text-decoration: none;
+.skills ul {
+  margin: 2px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .card-skills {

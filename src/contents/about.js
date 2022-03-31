@@ -1,20 +1,14 @@
 import React from "react";
 import "../styles/about.css";
 import Image from "../images/Julio.jpg";
-import { Card, Row } from "react-bootstrap";
+import team_player from "../images/undraw_pair_programming_re_or4x.svg";
+import learner from "../images/undraw_researching_re_fuod.svg";
+import communication from "../images/undraw_version_control_re_mg66.svg";
 import { AiOutlineGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 function about() {
   return (
     <div className="container-about">
       <div className="main-about">
-        <div className="description">
-          <h2> Júlio Ferreira</h2>
-          <p>
-            Born in a lovely country called Portugal and lived in Poland and in
-            Ireland. At the moment, Berlin is home. Recently, finished a
-            bootcamp as a Full Stack Web Developer.
-          </p>
-        </div>
         <div ClassName="card-photo">
           <img className="img-about" src={Image} alt="My Image" />
           <br />
@@ -29,47 +23,43 @@ function about() {
               <AiOutlineMail size="30px" color="black" />
             </a>
           </div>
+          <div className="description">
+            <h1> Júlio Ferreira</h1>
+            <p>
+              Born in a lovely country called Portugal and lived in Poland and
+              in Ireland. At the moment, Berlin is home. Recently, finished a
+              bootcamp as a Full Stack Web Developer.
+            </p>
+          </div>
         </div>
       </div>
-      <Row>
-        <Card
-          style={{ width: "18rem" }}
-          className=" m-4 shadow p-3 mb-5 bg-white rounded"
-        >
-          <Card.Body>
-            <Card.Title>Quick Learner</Card.Title>
-            <Card.Text>
-              Having the ability to learn rapidly, applying and processing the
-              information provided. Searching for new challenges and eager to
-              learn more.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card
-          style={{ width: "18rem" }}
-          className=" m-4 shadow p-3 mb-5 bg-white rounded"
-        >
-          <Card.Body>
-            <Card.Title>Communication</Card.Title>
-            <Card.Text>
-              Expressing clearly and receptive to new ideas. Always looking for
-              feedback and constructive criticism.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card
-          style={{ width: "18rem" }}
-          className=" m-4 shadow p-3 mb-5 bg-white rounded"
-        >
-          <Card.Body>
-            <Card.Title>Team Player</Card.Title>
-            <Card.Text>
-              Respecting other opinions and committed to help others to find
-              better solutions.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Row>
+      <div className="container-skills">
+        <div className="card-skills">
+          <img className="img-about" src={learner} />
+          <h3>Quick Learner</h3>
+          <p>
+            Having the ability to learn rapidly, applying and processing the
+            information provided. Searching for new challenges and eager to
+            learn more.
+          </p>
+        </div>
+        <div className="card-skills">
+          <img className="img-about" src={communication} />
+          <h3>Communication</h3>
+          <p>
+            Expressing clearly and receptive to new ideas. Always looking for
+            feedback and constructive criticism.
+          </p>
+        </div>
+        <div className="card-skills">
+          <img className="img-about" src={team_player} />
+          <h3>Team Player</h3>
+          <p>
+            Respecting other opinions and committed to help others to find
+            better solutions.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

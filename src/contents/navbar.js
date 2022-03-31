@@ -7,9 +7,21 @@ class navbar extends Component {
   render() {
     return (
       <div className="Navbar_container">
-        <Link to="/julioferreira.pdf" target="_blank" className="link">
+        <a href="/julioferreira.pdf" target="_blank" className="link">
+          About
+        </a>
+        <a href="/julioferreira.pdf" target="_blank" className="link">
+          Portfolio
+        </a>
+        <a href="/julioferreira.pdf" target="_blank" className="link">
+          Skills
+        </a>
+        <a href="/julioferreira.pdf" target="_blank" className="link">
+          Contact
+        </a>
+        <a href="/julioferreira.pdf" target="_blank" className="link">
           Curriculum
-        </Link>
+        </a>
       </div>
     );
   }

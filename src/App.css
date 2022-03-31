@@ -1,6 +1,11 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
-  font-family: "Sora", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
   height: 100%;
   width: 100%;
   padding: 0;
@@ -8,24 +13,52 @@
   /* background-color: rgb(255, 249, 242); */
 }
 
+.App h1 {
+  font-size: 4rem;
+  line-height: 1em;
+  color: #ffac87;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.06em;
+}
+@media (max-width: 600px) {
+  .App {
+    width: fit-content;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 1em;
+    color: #ffac87;
+  }
+
+  p {
+    font-size: 1rem;
+    max-width: 50ch;
+    line-height: 1.2em;
+    color: #626262;
+  }
+}
+
+p {
+  line-height: 1.8em;
+  color: #626262;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Ubuntu", sans-serif,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
