@@ -68,7 +68,7 @@
     grid-auto-flow: column;
     padding-left: 2em;
     padding-right: 2em;
-    gap: 3em;
+    gap: 2em;
     max-width: fit-content;
   }
   .main-about p {
