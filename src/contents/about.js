@@ -23,14 +23,14 @@ function about() {
               <AiOutlineMail size="30px" color="black" />
             </a>
           </div>
-          <div className="description">
-            <h1> Júlio Ferreira</h1>
-            <p>
-              Born in a lovely country called Portugal and lived in Poland and
-              in Ireland. At the moment, Berlin is home. Recently, finished a
-              bootcamp as a Full Stack Web Developer.
-            </p>
-          </div>
+        </div>
+        <div className="description">
+          <h1> Júlio Ferreira</h1>
+          <p>
+            Born in a lovely country called Portugal and lived in Poland and in
+            Ireland. At the moment, Berlin is home. Recently, finished a
+            bootcamp as a Full Stack Web Developer.
+          </p>
         </div>
       </div>
       <div className="container-skills">

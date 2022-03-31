@@ -54,14 +54,22 @@
   flex: 1 1 200px;
 } */
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   .container-skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     min-height: 33em;
   }
+}
+
+@media (min-width: 600px) {
   .main-about {
-    display: inline-flex;
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 2em;
+    padding-right: 2em;
+    gap: 3em;
+    max-width: fit-content;
   }
   .main-about p {
     font-size: 1rem;
@@ -76,6 +84,8 @@
     padding: 10px;
   }
   .description {
-    padding-right: 15%;
+    padding-right: 3em;
+
+    padding-left: 3em;
   }
 }
