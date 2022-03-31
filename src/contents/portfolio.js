@@ -40,7 +40,8 @@ function portfolio() {
           </div>
         </div>
         <div className="card-portfolio">
-          <div className="card-text grid-col-span-3">
+          <img className="img-portfolio" src={pets} />
+          <div className="card-text grid-col-span-3" id="reverse-image">
             <h2>Pets</h2>
             <p>
               This was a group project that was part of the bootcamp. It was
@@ -63,8 +64,6 @@ function portfolio() {
             <a href="https://book-a-pet.herokuapp.com//">Live</a>
             <a href="https://github.com/camimurg/book-a-pet">GitHub</a>
           </div>
-
-          <img className="img-portfolio" id="reverse-image" src={pets} />
         </div>
         <div className="card-portfolio">
           <img className="img-portfolio" src={nytimes} />

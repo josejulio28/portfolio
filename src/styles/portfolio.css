@@ -79,9 +79,7 @@ a:hover {
   align-self: center;
   justify-self: center;
 }
-#reverse-image {
-  grid-row-start: 1;
-}
+
 .container {
   height: 190vh;
   width: 100%;
@@ -91,6 +89,10 @@ a:hover {
   .card-portfolio {
     grid-template-columns: repeat(5, 1fr);
   }
+  #reverse-image {
+    grid-row-start: 1;
+  }
+
   .grid-col-span-3 {
     grid-column: span 3;
   }
