@@ -4,12 +4,11 @@ import "../styles/contact.css";
 const Contact = () => {
   return (
     <div className="container-contact">
+      <h1>Let's have a coffe!</h1>
+      <p>zejulio3@hotmail.com</p>
       <div>
         <img className="img-contact" src={coffee} />
       </div>
-
-      <h1>Let's have a coffe!</h1>
-      <p>zejulio3@hotmail.com</p>
     </div>
   );
 };

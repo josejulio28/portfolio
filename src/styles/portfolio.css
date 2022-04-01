@@ -5,12 +5,11 @@
 .container-portfolio {
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(255, 255, 255); */
   width: 100%;
   justify-content: center;
   align-items: center;
   padding-left: 1em;
-  padding-top: 2em;
+  padding-top: 4em;
   padding-right: 1em;
 }
 
@@ -18,6 +17,7 @@
   padding-left: 1em;
   padding-right: 1em;
 }
+
 /* Styled Links */
 
 .card-portfolio a {
@@ -40,7 +40,7 @@
 .card-portfolio {
   display: grid;
   gap: 2em;
-  margin-top: 5em;
+  margin-top: 3em;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 2em;
@@ -49,6 +49,7 @@
 .card-text {
   border-top: solid #ffac87;
   padding: 2em;
+  border-bottom: solid #ffac87;
 }
 .card-portfolio p {
   width: 50ch;
@@ -88,6 +89,9 @@ a:hover {
 @media (min-width: 900px) {
   .card-portfolio {
     grid-template-columns: repeat(5, 1fr);
+  }
+  .card-text {
+    border-bottom: none;
   }
   #reverse-image {
     grid-row-start: 1;
