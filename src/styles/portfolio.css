@@ -44,12 +44,11 @@
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 2em;
+  border: solid #ffac87;
 }
 
 .card-text {
-  border-top: solid #ffac87;
   padding: 2em;
-  border-bottom: solid #ffac87;
 }
 .card-portfolio p {
   width: 50ch;
@@ -89,9 +88,11 @@ a:hover {
 @media (min-width: 900px) {
   .card-portfolio {
     grid-template-columns: repeat(5, 1fr);
+    border: none;
   }
   .card-text {
-    border-bottom: none;
+    border-bottom: solid #ffac87;
+    border-top: solid #ffac87;
   }
   #reverse-image {
     grid-row-start: 1;
