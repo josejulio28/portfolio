@@ -3,6 +3,7 @@ import "../styles/portfolio.css";
 import pets from "../images/pets_img2.png";
 import survivors from "../images/survivors_img.png";
 import nytimes from "../images/Nytimes.png";
+import todo from "../images/TODOImg.png";
 
 function portfolio() {
   return (
@@ -67,7 +68,6 @@ function portfolio() {
         </div>
         <div className="card-portfolio">
           <img className="img-portfolio" src={nytimes} />
-
           <div className="card-text grid-col-span-3">
             <h2>NY Times Searcher</h2>
             <p>
@@ -83,8 +83,32 @@ function portfolio() {
               . It is connected to the New York Times API to search for
               articles.
             </p>
-            <a href="https://main.d2djgxcmmqqh1o.amplifyapp.com/">Live</a>
-            <a href="https://main.d2djgxcmmqqh1o.amplifyapp.com/">GitHub</a>
+            <a href="https://main.d2djgxcmmqqh1o.amplifyapp.com">Live</a>
+            <a
+              href="
+            https://github.com/josejulio28/NYtimes.git"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>{" "}
+        <div className="card-portfolio">
+          <img className="img-portfolio" src={todo} />
+          <div className="card-text grid-col-span-3" id="reverse-image">
+            <h2>TODO App</h2>
+            <p>
+              This was my first project where I decided to use{" "}
+              <b>
+                <u>Typescript</u>.
+              </b>{" "}
+              I also used a{" "}
+              <b>
+                <u>React library, react-toastify</u>
+              </b>
+              .
+            </p>
+            <a href="https://main.dc87fnzs31s9x.amplifyapp.com/">Live</a>
+            <a href="https://github.com/josejulio28/TodoApp.git">GitHub</a>
           </div>
         </div>
       </div>
