@@ -36,8 +36,8 @@ function portfolio() {
                 <u>Javascript</u>
               </b>
             </p>
-            <a href="https://github.com/PatriciaZB/SURVIVORS">Live</a>
-            <a href="https://main.d2djgxcmmqqh1o.amplifyapp.com/">GitHub</a>
+            <a href="https://www.womensurvivors.net/">Live</a>
+            <a href="https://github.com/PatriciaZB/SURVIVORS">GitHub</a>
           </div>
         </div>
         <div className="card-portfolio">
