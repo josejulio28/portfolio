@@ -36,7 +36,7 @@ function portfolio() {
                 <u>Javascript</u>
               </b>
             </p>
-            <a href="https://www.womensurvivors.net/">Live</a>
+
             <a href="https://github.com/PatriciaZB/SURVIVORS">GitHub</a>
           </div>
         </div>
@@ -62,7 +62,6 @@ function portfolio() {
               </b>{" "}
               as part of the styling.
             </p>
-            <a href="https://book-a-pet.herokuapp.com//">Live</a>
             <a href="https://github.com/camimurg/book-a-pet">GitHub</a>
           </div>
         </div>
