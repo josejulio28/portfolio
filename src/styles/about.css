@@ -1,3 +1,8 @@
+div {
+  display: inline;
+  justify-items: center;
+}
+
 .container-about {
   display: grid;
   /* display: flex;
