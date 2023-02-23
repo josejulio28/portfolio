@@ -11,7 +11,7 @@ function portfolio() {
       <h1>Portfolio</h1>
       <div className="container-cards">
         <div className="card-portfolio">
-          <img className="img-portfolio" src={survivors} />
+          {/* <img className="img-portfolio" src={survivors} /> */}
 
           <div className="card-text grid-col-span-3">
             <h2>Survivors</h2>
@@ -41,7 +41,7 @@ function portfolio() {
           </div>
         </div>
         <div className="card-portfolio">
-          <img className="img-portfolio" src="../images/TODOimg.png" />
+          {/* <img className="img-portfolio" alt="image_pets" src={pets} /> */}
           <div className="card-text grid-col-span-3" id="reverse-image">
             <h2>Pets</h2>
             <p>
@@ -66,7 +66,7 @@ function portfolio() {
           </div>
         </div>
         <div className="card-portfolio">
-          <img className="img-portfolio" src={nytimes} />
+          {/* #    <img className="img-portfolio" src={nytimes} /> */}
           <div className="card-text grid-col-span-3">
             <h2>NY Times Searcher</h2>
             <p>
@@ -92,7 +92,7 @@ function portfolio() {
           </div>
         </div>{" "}
         <div className="card-portfolio">
-          <img className="img-portfolio" src={todo} alt="todo app" />
+          {/* <img className="img-portfolio" src={todo} alt="todo app" /> */}
           <div className="card-text grid-col-span-3" id="reverse-image">
             <h2>TODO App</h2>
             <p>
