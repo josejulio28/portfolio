@@ -41,7 +41,7 @@ function portfolio() {
           </div>
         </div>
         <div className="card-portfolio">
-          {/* <img className="img-portfolio" alt="image_pets" src={pets} /> */}
+          <img className="img-portfolio" alt="image_pets" src={pets} />
           <div className="card-text grid-col-span-3" id="reverse-image">
             <h2>Pets</h2>
             <p>
@@ -66,7 +66,7 @@ function portfolio() {
           </div>
         </div>
         <div className="card-portfolio">
-          {/* #    <img className="img-portfolio" src={nytimes} /> */}
+          <img className="img-portfolio" src={nytimes} />
           <div className="card-text grid-col-span-3">
             <h2>NY Times Searcher</h2>
             <p>
