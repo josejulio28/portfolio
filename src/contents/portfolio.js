@@ -3,7 +3,7 @@ import "../styles/portfolio.css";
 import pets from "../images/pets_img2.png";
 import survivors from "../images/survivors_img.png";
 import nytimes from "../images/Nytimes.png";
-import todo from "../images/todoimg.png";
+import todo from "../images/TODOimg.png";
 
 function portfolio() {
   return (
