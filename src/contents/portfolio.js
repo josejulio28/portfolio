@@ -3,7 +3,7 @@ import "../styles/portfolio.css";
 import pets from "../images/pets_img2.png";
 import survivors from "../images/survivors_img.png";
 import nytimes from "../images/Nytimes.png";
-import todo from "../images/TODOimg.png";
+import todo from "../images/todoimg.png";
 
 function portfolio() {
   return (
@@ -92,7 +92,7 @@ function portfolio() {
           </div>
         </div>{" "}
         <div className="card-portfolio">
-          <img className="img-portfolio" src={todo} />
+          <img className="img-portfolio" src={todo} alt="todo app" />
           <div className="card-text grid-col-span-3" id="reverse-image">
             <h2>TODO App</h2>
             <p>
