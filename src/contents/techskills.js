@@ -13,12 +13,14 @@ function techskills() {
         <ul>CSS/HTML</ul>
         <ul>Redux</ul>
         <ul>Figma</ul>
-        <ul>SQL</ul>
-        <ul>Bootstrap</ul>
         <ul>Node</ul>
         <ul>Ruby</ul>
         <ul>Ruby on Rails</ul>
+        <ul>Linux</ul>
+        <ul>Python</ul>
         <ul>SQL</ul>
+        <ul>Jenkins</ul>
+        <ul>Docker</ul>
       </div>
     </div>
   );
