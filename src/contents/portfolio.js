@@ -11,7 +11,7 @@ function portfolio() {
       <h1>Portfolio</h1>
       <div className="container-cards">
         <div className="card-portfolio">
-          {/* <img className="img-portfolio" src={survivors} /> */}
+          <img className="img-portfolio" src={survivors} />
 
           <div className="card-text grid-col-span-3">
             <h2>Survivors</h2>
