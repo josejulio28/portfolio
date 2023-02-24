@@ -27,9 +27,9 @@ function about() {
         <div className="description">
           <h1> Júlio Ferreira</h1>
           <p>
-            Born in a lovely country called Portugal and lived in Poland and in
-            Ireland. At the moment, Berlin is home. Recently, finished a
-            bootcamp as a Full Stack Web Developer.
+            Born in a lovely country called Portugal. i have worked and lived in
+            Poland and in Ireland. Currently I live in Germany, I work as a Site
+            Reliability Engineer.
           </p>
         </div>
       </div>
