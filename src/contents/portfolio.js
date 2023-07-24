@@ -3,7 +3,6 @@ import "../styles/portfolio.css";
 import pets from "../images/pets_img2.png";
 import survivors from "../images/survivors_img.png";
 import nytimes from "../images/Nytimes.png";
-import todo from "../images/TODOimg.png";
 
 function portfolio() {
   return (
@@ -11,7 +10,7 @@ function portfolio() {
       <h1>Portfolio</h1>
       <div className="container-cards">
         <div className="card-portfolio">
-          <img className="img-portfolio" src={survivors} />
+          <img alt="" className="img-portfolio" src={survivors} />
 
           <div className="card-text grid-col-span-3">
             <h2>Survivors</h2>
@@ -66,7 +65,7 @@ function portfolio() {
           </div>
         </div>
         <div className="card-portfolio">
-          <img className="img-portfolio" src={nytimes} />
+          <img alt="" className="img-portfolio" src={nytimes} />
           <div className="card-text grid-col-span-3">
             <h2>NY Times Searcher</h2>
             <p>

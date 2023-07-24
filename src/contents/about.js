@@ -10,7 +10,7 @@ function about() {
     <div className="container-about">
       <div className="main-about">
         <div ClassName="card-photo">
-          <img className="img-about" src={Image} alt="My Image" />
+          <img className="img-about" src={Image} alt="Myself" />
           <br />
           <div>
             <a href="https://www.linkedin.com/in/jose-julio-ferreira/">
@@ -35,7 +35,7 @@ function about() {
       </div>
       <div className="container-skills">
         <div className="card-skills">
-          <img className="img-about" src={learner} />
+          <img alt="" className="img-about" src={learner} />
           <h3>Quick Learner</h3>
           <p>
             Having the ability to learn rapidly, applying and processing the
@@ -44,7 +44,7 @@ function about() {
           </p>
         </div>
         <div className="card-skills">
-          <img className="img-about" src={communication} />
+          <img alt="" className="img-about" src={communication} />
           <h3>Communication</h3>
           <p>
             Expressing clearly and receptive to new ideas. Always looking for
@@ -52,7 +52,7 @@ function about() {
           </p>
         </div>
         <div className="card-skills">
-          <img className="img-about" src={team_player} />
+          <img alt="temaplayer" className="img-about" src={team_player} />
           <h3>Team Player</h3>
           <p>
             Respecting other opinions and committed to help others to find
